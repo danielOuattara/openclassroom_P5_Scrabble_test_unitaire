@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="fr">
+	<title>Exercices scrapple OC</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<img src="../images/scrapple.svg" alt="Logo scrapple">
+			<nav>
+				<ul>
+					<li>Home</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div id="slider">
+				<div id="sliderImg">
+					<img src="../images/abc-block.svg">
+				</div>
+				<div id="sliderTitle">
+					<h1>Calculatrice de score <br>de mot de scrapple</h1>
+				</div>
+			</div>
+			<div id="descript">
+				<h2>Un super calculateur pour ...</h2>
+				<p>Avec ce calculateur de score de mot de scrapple, vous allez pouvoir calculer plusieurs choses. Très basiquement, il est possible de calculer le score d'un ou des plusieurs mot(s). Mais, avec ce calculateur, il est également possible de voir si le mot contient l'occurrence "OC", ou bien si le mot est un palindrome.</p>
+			</div>
+			<div id="calculator">
+				<div id="calculatorContent">
+					<div id="calculatorInput">
+						<div id="UserInput">
+							<div class="word">
+								<label for="word1">Mot 1 :</label>
+								<input type="text" name="word1">
+							</div>
+							<div class="word">
+								<label for="word2">Mot 2 :</label>
+								<input type="text" name="word2">
+							</div>
+						</div>
+						<div id="addMinus">
+							<button id="add">+</button>
+							<button id="delete">
+								<div id="minus"></div>
+							</button>
+						</div>
+					</div>
+					<div id="calculatorResult">
+					</div>
+				</div>
+				<div id="calculatorButtons">
+					<div id="calculatorValidate">
+						<button id="calculatorValidateBtn">Calculer les points du / des mot(s)</button>
+					</div>
+					<div id="calculatorExtra">
+						<button id="calculatorExtraOC">OC occurrence ?</button>
+						<button id="calculatorExtraPalindrome">Palindrome ?</button>
+					</div>
+				</div>
+			</div>	
+		</main>
+
+		<footer>
+			<p>Copyright 2042</p>
+		</footer>
+	</div>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
